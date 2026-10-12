@@ -1,0 +1,9 @@
+exp_id,label,feature_set,scaler,pca_threshold,n_raw_features,n_corr_filter,n_components,pca_evr,output_shape,elapsed_sec,status
+EXP_A,Baseline — Stats Dasar,stats,robust,0.95,250,104,2,0.998512,"[2205, 2]",0.65,OK
+EXP_B,Stats + FFT Spectral,stats_fft,robust,0.95,281,115,2,0.998997,"[2205, 2]",0.66,OK
+EXP_C,Stats + FFT + 13-Cluster PS1,stats_fft_13cluster,robust,0.95,2236,832,2,0.991765,"[2205, 2]",3.36,OK
+EXP_D,Stats + FFT — Z-score,stats_fft,standard,0.95,281,115,46,0.950754,"[2205, 46]",0.63,OK
+EXP_E,Stats + FFT — Min-Max,stats_fft,minmax,0.95,281,115,31,0.95057,"[2205, 31]",0.83,OK
+EXP_F,EWT + 17 Fitur Time-Domain,ewt,robust,0.95,486,230,2,1.0,"[2205, 2]",1.09,OK
+EXP_G,Stats + FFT — PCA 85%,stats_fft,robust,0.85,281,115,2,0.998997,"[2205, 2]",0.65,OK
+EXP_H,Stats + FFT — Tanpa PCA,stats_fft,robust,,281,115,115,,"[2205, 115]",0.19,OK
